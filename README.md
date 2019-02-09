@@ -12,13 +12,11 @@ vcf files must be bgzipped and tabix indexed.
 The sample_pop_file file must have the tab separated fields in the following order: sample_name\tpopulation.
 Each sample should be on a different line, samples can appear in more than one population.
 
-The snp_position_file must have the tab separated fields in the following order: chromosome\tsnp_position.
-
-Each snp should be on a different line.
+The snp_position_file must have the tab separated fields in the following order: chromosome\tsnp_position. Each snp should be on a different line.
 
 95% confidence intervals are calculated the using likelihood profile method.
 
-Usage is ./AF_estimate_pyvcf.py <in.vcf.gz> <sample_pop_file> <snp_position_file> <min_number_of_samples_per_population_to_consider>
+Usage is ./AF_estimate_pyvcf.py <in.vcf.gz> <sample_pop_file> <snp_position_file> <min_nb_samps>
 
 Output will be to screen and also written to the sample_pop_file name appended with '.AF;
 
