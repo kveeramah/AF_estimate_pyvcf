@@ -2,7 +2,7 @@
 
 This python script takes a vcf file and calculates allele frequencies using genotype likelihoods for a subset of individuals at specific loci using the method of Kim et al. BMC Bioinformatics 2011, 12:231 Estimation of allele frequency and associationmapping using next-generation sequencing data
 
-Only biallelic loci with a reference allele and one alternate allele.are considered. 
+Only biallelic loci with a reference allele and one alternate allele are considered. 
 
 numpy, scipy and pyvcf must be installed in the version of python used.
 
